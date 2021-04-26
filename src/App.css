@@ -278,6 +278,9 @@ a {
 .sort {
   position: relative;
 }
+.rotated {
+  transform: rotate(0deg);
+}
 .sort__label {
   display: -webkit-box;
   display: -ms-flexbox;
