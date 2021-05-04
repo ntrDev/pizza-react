@@ -18,7 +18,7 @@ const Home = ({items}) => {
             <div className="content__items">
             
             {items.map((obj) => (
-                <PizzaBlock key={obj.id} {...obj} />
+                <PizzaBlock key={obj.id} {...obj}/>
             ))}
                 
             </div>
